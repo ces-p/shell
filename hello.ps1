@@ -1,4 +1,4 @@
-$name = Read-Host
+$nombre = Read-Host
 
 if ($nombre -eq ""){
     Write-Error -Message "return code 100"
