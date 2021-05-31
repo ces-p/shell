@@ -1,2 +1,7 @@
 $name = Read-Host
-echo "Hello $name"
+
+if ($nombre -eq ""){
+    Write-Error -Message "return code 100"
+}else{
+    echo "Hola $nombre"
+}
